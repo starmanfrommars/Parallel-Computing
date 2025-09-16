@@ -37,8 +37,12 @@
     <tr>
         <td>Lab 2</td>
         <td>16-09-2025 </td>
-    </tr>
-
-
-    
+    </tr>    
 </table>
+
+## Command for Execution
+<pre><code>
+gcc FileName.c -fopenmp 
+</code></pre>
+
+
