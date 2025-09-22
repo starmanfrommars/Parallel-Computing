@@ -79,3 +79,15 @@ int main(){
 
     return 0;
 }
+
+
+// SAMPLE OUTPUT
+//
+// Sequential time : 0.077565 seconds
+// Thread 0 working on right [250000..499999]
+// Thread 10 working on left [0..249999]
+// Thread 0 working on left [0..124999]
+// Thread 1 working on right [125000..249999]
+// Thread 4 working on left [250000..374999]
+// Thread 7 working on right [375000..499999]
+// Parallel time : 0.038393 seconds

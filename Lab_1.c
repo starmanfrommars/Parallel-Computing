@@ -14,4 +14,11 @@ int main(){
     return 0;
 }
 
-// gcc Program1.c -fopenmp
+
+// SAMPLE OUTPUT
+
+// Enter the number of iterations : 4
+// Thread no. 0 is executing iteration 0
+// Thread no. 0 is executing iteration 1
+// Thread no. 1 is executing iteration 2
+// Thread no. 1 is executing iteration 3
