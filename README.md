@@ -40,9 +40,23 @@
     </tr>    
 </table>
 
-## Command for Execution
+## Command for Compilation of OMP Programs
 <pre><code>
-gcc FileName.c -fopenmp 
+gcc FileName.c -fopenmp -o executable
+</code></pre>
+
+## Command for Execution of OMP Programs
+<pre><code>
+./executable
+</code></pre>
+
+## Command for Compilation of MPI Programs
+<pre><code>
+mpicc filename.c -o bcast
 </code></pre>
 
 
+## Command for Execution of MPI Programs
+<pre><code>
+mpiexec -np x -oversubscribe ./bcast
+</code></pre>
