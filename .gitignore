@@ -1,6 +1,9 @@
 a.out
 settings.json
-Assignment_1.c
 bcast
+Assignment_1.c
 obj
 .gitignore
+Assignment_2.c
+executable
+obj
