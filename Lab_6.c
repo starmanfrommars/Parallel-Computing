@@ -3,7 +3,7 @@
 
 
 // Program with deadlock : 
-/*
+
 #include <stdio.h>
 #include <mpi.h>
 #define SIZE 100000
@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     MPI_Finalize();
 
     return 0;
-} */
+} 
 
 // Terminal Command
 // Compile = mpicc Lab_6.c
