@@ -1,3 +1,6 @@
+// Write a OpenMP program to find the prime numbers from 1 to n employing parallel 
+// for directive. Record both serial and parallel execution times.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
@@ -60,3 +63,16 @@ int main(int argc, char *argv[]) {
     return 0;
 }
     
+
+// Terminal Command
+// Compile = gcc Lab_4.c -fopenmp
+// Execute = ./a.out 30 4
+
+
+// OUTPUT
+// Serial primes up to 30:
+// 2 3 5 7 11 13 17 19 23 29 
+// Serial: 10 primes, 0.000015 sec
+// Parallel (4 threads) primes up to 30:
+// 11 2 3 29 5 7 13 17 19 23 
+// Parallel: 10 primes, 0.000142 sec

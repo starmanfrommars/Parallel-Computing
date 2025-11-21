@@ -1,3 +1,5 @@
+// Write a OpenMP program to calculate n Fibonacci numbers using tasks.
+
 #include <stdio.h>
 #include <omp.h>
 
@@ -51,3 +53,39 @@ int main() {
 
     return 0;
 }
+
+
+// Terminal Command
+// Compile = gcc Lab_4.c -fopenmp
+// Execute = ./a.out
+
+
+// OUTPUT
+// Enter number of Fibonacci terms: 4
+
+
+// Fib(0) = ???
+// Thread 0 handling root call: fib(0)
+// Fib(0) = 0
+
+
+// Fib(1) = ???
+// Thread 0 handling root call: fib(1)
+// Fib(1) = 1
+
+
+// Fib(2) = ???
+// Thread 0 handling root call: fib(2)
+// Thread 2 handling left call: fib(1)
+// Thread 3 handling right call: fib(0)
+// Fib(2) = 1
+
+
+// Fib(3) = ???
+// Thread 0 handling root call: fib(3)
+// Thread 1 handling left call: fib(2)
+// Thread 0 handling right call: fib(1)
+// Thread 1 handling right call: fib(0)
+// Thread 1 handling left call: fib(1)
+// Fib(3) = 2
+// Execution Time: 0.000331 seconds

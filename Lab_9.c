@@ -1,3 +1,6 @@
+// Write a MPI Program to demonstration of MPI_Reduce and MPI_Allreduce 
+// (MPI_MAX,MPI_MIN, MPI_SUM, MPI_PROD)
+
 #include <mpi.h>
 #include <stdio.h>
 
@@ -53,14 +56,12 @@ int main() {
 }
 
 
+// Terminal Command
+// mpicc Lab_9.c
+// mpiexec -np 4 ./a.out
 
 
 // OUTPUT
-
-// mpicc Lab_9.c -o bcast
-
-// mpiexec -np 4 -oversubscribe ./bcast
-
 // Before Reduce -- Value at Rank 2 = 3
 // Before Reduce -- Value at Rank 3 = 4
 // Before Reduce -- Value at Rank 0 = 1

@@ -1,3 +1,5 @@
+// Write a MPI Program to demonstration of Broadcast operation.
+
 #include <stdio.h>
 #include <mpi.h>
 
@@ -26,12 +28,12 @@ int main() {
 }
 
 
+// Terminal Command
+// mpicc Lab_7.c
+// mpiexec -np 4 ./a.out
+
+
 // OUTPUT
-
-// mpicc Lab_7.c -o bcast
-
-// mpiexec -np 4 -oversubscribe ./bcast
-
 // Enter the number to be broadcasted
 // 5
 // Process 0 broadcasting data = 5

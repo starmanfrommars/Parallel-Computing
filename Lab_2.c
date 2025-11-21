@@ -1,3 +1,6 @@
+// Write a OpenMP program to sort an array on n elements using both sequential and parallel 
+// mergesort(using Section). Record the difference in execution time.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
@@ -80,9 +83,12 @@ int main(){
     return 0;
 }
 
+// Terminal Command
+// Compile = gcc Lab_2.c -fopenmp
+// Execute = ./a.out
+
 
 // SAMPLE OUTPUT
-//
 // Sequential time : 0.077565 seconds
 // Thread 0 working on right [250000..499999]
 // Thread 10 working on left [0..249999]

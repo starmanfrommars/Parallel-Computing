@@ -1,3 +1,5 @@
+// Write a MPI Program to demonstration of MPI_Send and MPI_Recv.
+
 #include <mpi.h>
 #include <stdio.h>
 
@@ -20,3 +22,13 @@ int main(int argc, char *argv[]) {
     MPI_Finalize(); // Finalize MPI
     return 0;
 }
+
+
+// Terminal Command
+// Compile = mpicc Lab_5.c
+// Execute = mpiexec -np 2 ./a.out
+
+
+// OUTPUT
+// Rank 0 sent number 42 to rank 1
+// Rank 1 received number 42 from rank 0

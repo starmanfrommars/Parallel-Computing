@@ -1,3 +1,4 @@
+// Write a MPI Program demonstration of MPI_Scatter and MPI_Gather
 #include <mpi.h>
 #include <stdio.h>
 
@@ -77,12 +78,11 @@ int main() {
 }
 
 
+// Terminal Command
+// mpicc Lab_8.c
+// mpiexec -np 4 ./a.out
+
 // OUTPUT
-
-// mpicc Lab_8.c -o bcast
-
-// mpiexec -np 4 -oversubscribe ./bcast
-
 // Process 0 scatters the following data: 10 20 30 40 
 // Process 0 received number 10
 // Process 1 received number 20
