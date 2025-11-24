@@ -27,25 +27,6 @@
 8. Write a MPI Program demonstration of MPI_Scatter and MPI_Gather
 9. Write a MPI Program to demonstration of MPI_Reduce and MPI_Allreduce (MPI_MAX,MPI_MIN, MPI_SUM, MPI_PROD)
 
-<b style="color: red;"><marquee>[ Above experiments are in order of lab execution date]</marquee></b>
-
-## Experiment Dates
-
-<table style="border: 2px solid;">
-    <tr>
-        <th>Experiment No</th>
-        <th>Date </th>
-    </tr>
-    <tr>
-        <td>Lab 1</td>
-        <td>12-09-2025 </td>
-    </tr>
-    <tr>
-        <td>Lab 2</td>
-        <td>16-09-2025 </td>
-    </tr>    
-</table>
-
 ## Command for Compilation of OMP Programs
 
 <pre><code>
